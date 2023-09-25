@@ -4,7 +4,7 @@ from model.card_travel_model import CardTravelModel
 
 
 session = get_session()
-
+# Se crean los metodos
 def get_cards():
  
     return session.query(CardTravelModel).all()
